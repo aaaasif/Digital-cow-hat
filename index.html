@@ -1,0 +1,387 @@
+<!DOCTYPE HTML>
+<html lang="bn-BD">
+
+<head>
+	<!-- Required Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="keywords" content="aaaasif"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" class="viewport">
+	<meta name="description"
+		content="বুটস্ট্রাপ দিয়ে তৈরী একটি সিম্পল গরুহাট প্রজেক্ট। ২০২১ কুরবানী ঈদের দিন এই প্রোজেক্ট তৈরী করা হয়েছে। আমার জীবনের এটি একটু স্মরণীয় ঈদ হবে ইনশা আল্লাহ্‌ যে, ঈদের দিনে বসে একটা ওয়েবসাইট তৈরী করেছি। দেখি, আল্লাহ্‌ ভরসা।">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Asif Mahtab Hussain">
+
+	<!-- Page Title -->
+	<title>ডিজিটাল গরুহাট!</title>
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/iamcow.jpg">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<!-- Internal Custom CSS -->
+	<style>
+		::selection {
+			background-color: #198754;
+			color: #fff;
+		}
+
+		.box ::selection {
+			background-color: #fff;
+			color: #198754;
+		}
+
+		body {
+			font-family: 'Hind Siliguri', sans-serif;
+		}
+
+		.overlay {
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.7);
+			z-index: 2;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- =========== Header Section Starts =========== -->
+	<header id="header-section">
+		<!-- Navbar Start -->
+		<nav style="z-index: 20;"
+			class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 border-bottom border-3">
+			<div class="container">
+				<a class="navbar-brand fw-bold" href="#">ডিজিটাল <span class="text-success">গরুহাট</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">মূলপাতা</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">আমাদের সম্পর্কে</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">ক্যাটাগরী</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">গরু</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">ছাগল</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">যোগাযোগ</a>
+						</li>
+					</ul>
+					<div class="cart-box">
+						<a href="#" class="btn btn-success link-light rounded">
+							<i class="bi bi-cart4"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar End -->
+
+		<!-- Carousel Start -->
+		<section id="carousel" class="position-relative">
+			<div class="overlay"></div>
+			<div class="carousel-text position-absolute top-50 start-50 translate-middle w-100" style="z-index: 3;">
+				<h1 class="display-1 text-light fw-bold text-center">আসিফ ডিজিটাল
+					<span class="text-success">গরুহাট</span>
+				</h1>
+				<h2 class="lead text-light fs-1 text-center">গরু কিনুন ঘরে বসেই!</h2>
+			</div>
+			<div class="carousel-fade-slider">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+							aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+							aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+							aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+							aria-label="Slide 4"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="./images/cow-1.jpg" class="d-block w-100 img-fluid" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="./images/cow-2.jpg" class="d-block w-100 img-fluid" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="./images/cow-3.jpg" class="d-block w-100 img-fluid" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="./images/cow-4.jpg" class="d-block w-100 img-fluid" alt="...">
+						</div>
+					</div>
+					<button style="z-index: 3;" class="carousel-control-prev" type="button"
+						data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button style="z-index: 3;" class="carousel-control-next" type="button"
+						data-bs-target="#carouselExampleFade" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- Carousel End -->
+	</header>
+	<!-- =========== Header Section Ends =========== -->
+
+	<!-- =========== Main Section Starts =========== -->
+	<main id="main-section">
+		<!-- Welcome Start -->
+		<section id="welcome-part" class="position-relative overflow-hidden mb-5">
+			<img class="img-fluid h-25" src="./images/half-bg.png" alt="">
+			<div class="container">
+				<div class="welcome-text position-absolute top-50 start-50 translate-middle w-100" style="z-index: 3;">
+					<div class="welcome-heading">
+						<h1 class="display-1 text-light fw-bold text-center">আপনাকে স্বাগতম!</h1>
+						<h2 class="lead text-light fs-1 text-center">অনলাইন গরু-ছাগলের মার্কেট!</h2>
+						<div class="separate-icon text-center text-light my-3">
+							<i class="bi bi-box fs-5"></i>
+						</div>
+					</div>
+					<div class="welcome-description w-75 mx-auto">
+						<p class="lead text-light text-center lh-lg">আপনি এখানে গরু পাবেন। ছাগলও পাবেন। গরু ছাগল দুইটা
+							একসাথে নিলে স্পেশাল ডিস্কাউন্ট পাবেন! তাই আর দেরী না করে এখনি লুফে নিন! ইবনু ডিজিটাল গরু
+							হাটে আপনার কেনা কাটা শুভ হোক!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Welcome End -->
+
+		<!-- Main Categories Start -->
+		<section id="main-categories" class="overflow-hidden">
+			<div class="container py-5">
+				<div class="row g-2">
+					<div class="col col-lg-4 col-md-6">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
+							<img src="./images/cow.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-2">
+								<h2 class="card-title fw-bold">গরু</h2>
+								<p class="card-text">বড়-গরু, ছোট-গরু, লাল-গরু, সাদা-গরু, কালো-গরু সবই আছে। আপনাকে
+									কষ্ট করে খুঁজে নিতে হবে। খোঁজার জন্য&nbsp;<span class="fw-bold">আরো
+										দেখুন&nbsp;</span>বাটনে চাপুন!</p>
+								<a href="#" class="btn btn-success">আরো দেখুন</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-lg-4 col-md-6">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
+							<img src="./images/goat.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-2">
+								<h2 class="card-title fw-bold">ছাগল</h2>
+								<p class="card-text">গরুর মতো এখানে অতো ভ্যারিয়েশন পাবেন না। তবে ছাগলগুলো মানে ভালো।
+									<span class="fw-bold">আরো দেখুন&nbsp;</span>বাটনে চেপে ঘুরে আসুন এদের জগত থেকে।</p>
+								<a href="#" class="btn btn-success">আরো দেখুন</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-lg-4 col-md-6">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
+							<img src="./images/camel.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-2">
+								<h2 class="card-title fw-bold">উট</h2>
+								<p class="card-text">উট ভাই, এখন আর নেই। যা ছিলো দু'একটা সেগুলো আগেই এক জমিদার সাহেব
+									নিয়ে গেছেন।&nbsp;<span class="fw-bold">অন্যকিছু&nbsp;</span>বাটনে চাপুন!</p>
+								<a href="#" class="btn btn-success">অন্যকিছু</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Main Categories End -->
+
+		<!-- About Owner Start -->
+		<section id="about-owner" class="position-relative overflow-hidden">
+			<div class="overlay"></div>
+			<img class="img-fluid" src="./images/cow-bg-2.jpg" alt="">
+			<div style="z-index: 10;" class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
+				<div id="owner-text" class="w-50 ">
+					<h1 class="display-1 text-success">আমার সম্পর্কে!</h1>
+					<p class="lead">এই ডিজিটাল গরুহাটের মালিক হলাম আমি! তো, আমার সম্পর্কে কিছু জানবেন না, তা কি হয়?!</p>
+					<div class="separate-icon my-3 text-center">
+						<i class="bi bi-box fs-5"></i>
+					</div>
+					<h2 class="display-3 text-light fw-bold">আসিফ</h2>
+					<p class="lead">ভেবেছিলাম অনেক কিছুই বলবো। পরে ভাবলাম না থাক! গরু-ছাগলের ওয়েবসাইটে আসা মানুষগুলো
+						হাটের মালিকের সম্পর্কে জানার চেয়ে বেশি আগ্রহী থাকে ঐ গরু-ছাগল সম্পর্কে জানতে! তাই, নিজের
+						ব্যাপারে এতটুকুই বলি, গরু-ছাগলের এই হাট যেমন আমার নিজের। তেমনিভাবে এই ওয়েবসাইটটাও আমার নিজেরই
+						তৈরী করা! <br> এর মানে বুঝলেন কিছু? আমি একজন <span class="text-info">আমি একজন ওয়েব
+							ডেভেলোপারও!</span> তারপরেও যদি আরো বেশি কিছু জানতে ইচ্ছে করে, তাহলে নিচে <span
+							class="fw-bold">আরো জানুন</span> বাটনে ক্লিক মেরে দিন।</p>
+					<a href="#" class="btn link-light border-2 border-success">আরো জানুন!</a>
+				</div>
+				<div class="owner-image ">
+					<img src="./images/asif.png" alt="asif">
+				</div>
+			</div>
+		</section>
+		<!-- About Owner Ends -->
+
+		<!-- About Animals Start -->
+		<section id="about-animals" class="py-5 mb-5">
+			<div class="container">
+				<div class="w-75 mx-auto py-5">
+					<div class="animal-heading text-center">
+						<h1 class="display-3 text-success">গরু-ছাগল সম্পর্কিত তথ্য!</h1>
+						<h2 class="lead">এখানে গরু-ছাগলরা এসে নিজেদের সম্পরকে কিছু তথ্য বলে বলে যাবে। আসলে সবাই এক এক করে তো আসবে না। সব গরুর পক্ষ থেকে এক গরু আসবে। তেমনি ভাবে সব ছাগলের পক্ষ হতে এক ছাগল আসবে।</h2>
+						<div class="separate-icon text-center my-1">
+							<i class="bi bi-box fs-5"></i>
+						</div>
+					</div>
+				</div>
+				<div class="box bg-success d-flex justify-content-between align-items-center mx-auto overflow-hidden" style="height: 550px; width: 1000px;">
+					<div class="animal-image">
+						<img class="img-fluid" src="./images/iamcow.jpg" alt="">
+					</div>
+					<div class="animal-details w-50 d-flex flex-column text-center text-light px-5 py-5">
+						<div class="animal-list pb-2">
+							<ul class="list-unstyled p-1 d-flex bg-light rounded-pill">
+								<li class="px-4 py-1 me-1 rounded-pill bg-success fw-bold">গরু</li>
+								<li class="px-4 py-1 me-1 rounded-pill text-success fw-bold">ছাগল</li>
+								<li class="px-4 py-1 me-1 rounded-pill text-success fw-bold">উট</li>
+								<li class="px-4 py-1 rounded-pill text-success fw-bold">অন্যান্য</li>
+							</ul>
+						</div>
+						<div class="animal-description">
+							<h2 class="display-5">আমি গরু!</h2>
+							<p>আমি কোথায় জন্ম নিসি জানি না। বড় হওয়ার পরে জানতে পারলাম জঙ্গলে অনেক ঘাস থাকে। আর আমরা ঘাস খাই। সেই থেকে ধারণা করলাম আমরা হয়তো জঙ্গলে থাকি। পরে জানলাম, জঙ্গলে <span class="fw-bold">বাঘ </span>নামক একটা হিংস্র প্রাণী আছে। সে আমাদের মতো নিরীহ গরুকে খেয়ে ফেলে! তখন বুঝলাম, আমাদের জন্ম জঙ্গলে না গ্রামে। কারণ গ্রামেও ঘাস আছে।</p> <p>মজার বিষয় হলো, গ্রামে আমাদের সামনে কিছু পিচ্চি পোলাপাইন এসে খেলাধুলা করতো। এই পোলাপাইন রা বাঘকে মামা বলে ডাকে। জঙ্গলের এক হিংস্র প্রাণী কীভাবে মানুষের বাচ্চার মামা হতে পারে, এটার রহস্য আমি আজও উদ্ঘাটন করতে পারলাম না! এখন এই রহস্য জানার আগেই যদি আমি কুরবান হয়ে যাই, তাহলে আমার আফসোস রয়েই যাবে!</p>
+							<a href="#" class="btn btn-light link-success fw-bold">আরো জানুন!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About Animals Ends -->
+
+		<!-- Animal Shop Start -->
+		<section id="animal-shop" class="py-5 mb-5 overflow-hidden">
+			<div class="container py-5">
+				<div class="animal-shop-heading text-center w-75 mx-auto">
+					<h1 class="display-3 text-success fw-bold">খরিদ করুন!</h1>
+					<h2 class="lead">দেখেন ভাই! এই গরু-ছাগলগুলারে মানুষ করতে বহুত পরিশ্রম করতে হইসে। আপনি এমনি এমনি নিয়া যাইবেন তা হয় না! তাই, যা দাম হাঁকা হয় সেই দাম দিয়েই নিয়ে যান!</h2>
+					<div class="separate-icon tex text-center">
+						<i class="bi bi-box fs-5"></i>
+					</div>
+				</div>
+				<div class="row g-5 mt-2">
+					<div class="col col-lg-3 col-md-6">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
+							<img src="./images/sell-cow-1.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-4 px-3">
+								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
+								<h3 class="card-title fw-bold">৪ লাখ ৩০ হাজার ৳</h3>
+								<a href="#" class="btn btn-success">খরিদ করেন!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-lg-3 col-md-6">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
+							<img src="./images/sell-goat.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-4 px-3">
+								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
+								<h3 class="card-title fw-bold">১ লাখ ২০ হাজার ৳</h3>
+								<a href="#" class="btn btn-success">খরিদ করেন!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-lg-3 col-md-6">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
+							<img src="./images/sell-cow-2.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-4 px-3">
+								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
+								<h3 class="card-title fw-bold">৩ লাখ ৫৪ হাজার ৳</h3>
+								<a href="#" class="btn btn-success">খরিদ করেন!</a>
+							</div>
+						</div>
+					</div>
+					<div class="col col-lg-3 col-md-6">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
+							<img src="./images/sell-camel.jpg" class="card-img-top" alt="...">
+							<div class="card-body py-4 px-3">
+								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
+								<h3 class="card-title fw-bold">১২ লাখ ২৫ হাজার ৳</h3>
+								<a href="#" class="btn btn-success">খরিদ করেন!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Animal Shop End -->
+	</main>
+	<!-- =========== Main Section Ends =========== -->
+
+	<!-- =========== Footer Section Starts =========== -->
+	<footer id="footer-section" class="bg-dark text-light pt-5 pb-3">
+		<div class="container">
+			<div class="row g-5 py-3">
+				<div class="col-lg-4">
+					<div class="footer-logo">
+						<h1><a class="fw-bold link-light text-decoration-none" href="#">ডিজিটাল<span class="text-success">গরুহাট</span></a></h1>
+					</div>
+					<div class="footer-text">
+						<p class="lead">সব কথাবার্তা এখানেই শেষ! ওয়েবসাইটও এখানে আপাতত রাখছি। আরো অনেক কাজ আছে। পরে আবার এখানে একসময় বসবো ইনশা আল্লাহ্‌!</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="footer-social-links">
+						<ul class="list-unstyled">
+							<li><h2><a href="#" class="link-light text-decoration-none"> সোশ্যাল প্রোফাইলস</a></h2></li>
+							<li><a href="#" class="lead link-light text-decoration-none">ফেসবুক</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">টুইটার</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">ইন্সটাগ্রাম</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">গিটহাব</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright d-flex justify-content-center">
+				<p class="lead pt-3">কপিরাইট &copy; ২০২১ | সর্বস্বত্ব সংরক্ষিত | <a class="link-success text-decoration-none" href="#">আসিফ</a></p>
+			</div>
+		</div>
+	</footer>
+	<!-- =========== Footer Section Ends =========== -->
+
+
+	<!-- =========== Link with JS Files =========== -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+	<!-- =========== Link with JS Files Ends =========== -->
+</body>
+
+</html>
